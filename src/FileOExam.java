@@ -3,7 +3,7 @@ import java.io.*;
 public class FileOExam {
     public static void main(String[] args) throws IOException{
         FileOutputStream fos = new FileOutputStream("data.dat");
-        fos.write(740);
+        fos.write(720);
         fos.close();
 
         FileInputStream fis = new FileInputStream("data.dat");
